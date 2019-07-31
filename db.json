@@ -1,14 +1,166 @@
 
-{
-  "user": {
-    "userid":"12345",
-    "usertype":"reciving",
-    "username":"tester",
-    "warehouse_no":"23457"
-  },
-  "customer": {
-    "account_number": "cust12345",
-    "customer_name": "ikea"
-  }
+{"login" : 
+		{
+	  "user": {
+	    "userid":"12345",
+	    "usertype":"reciving",
+	    "username":"tester",
+	    "warehouse_no":"23457"
+	  },
+	  "customer": {
+	    "account_number": "cust12345",
+	    "customer_name": "ikea"
+	  }
+	},
+
+	"checkid": {
+			  "check_id":"23456",
+			  "dock_number":"234567",
+			  "shipment_data":[
+			  	{
+				    "sku":"sdfghjk",
+				    "discription":"this is one sku details",
+				    "po_qty":"50",
+				    "exp_date":"2019-08-23",
+				    "pack_config":[
+					      {"code":"M23vybj"},
+					      {"code":"M23vybj"}
+				      ]
+			  },{
+				    "sku":"234efg",
+				    "discription":"this is one sku details",
+				    "po_qty":"50",
+				    "exp_date":"2019-08-23",
+				    "pack_config":[
+					      {"code":"M23vybj"},
+					      {"code":"M23vybj"}
+				      ]
+			  },{
+				    "sku":"wert45",
+				    "discription":"this is one sku details",
+				    "po_qty":"50",
+				    "exp_date":"2019-08-23",
+				    "pack_config":[
+					      {"code":"M23vybj"},
+					      {"code":"M23vybj"}
+				      ]
+			  },{
+				    "sku":"234edfr",
+				    "discription":"this is one sku details",
+				    "po_qty":"50",
+				    "exp_date":"2019-08-23",
+				    "pack_config":[
+					      {"code":"M23vybj"},
+					      {"code":"M23vybj"}
+				      ]
+			  }
+			]
+			  ,
+			  "naqel_barcode":[
+				    {"barcode":"sdfghjkl"},
+				    {"barcode":"e3fhjkl"},
+				    {"barcode":"gfd3456"},
+				    {"barcode":"dfg3456"}
+			    ]
+	},
+
+	"putaway_system" : [
+		{
+		  "check_id":"234566",
+		  "naqel_barcode":"234sdfg",
+		  "sku":"23345",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"System"
+		},{
+		  "check_id":"34556",
+		  "naqel_barcode":"3456fd",
+		  "sku":"sdfhj",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"System"
+		},{
+		  "check_id":"wdfgefg",
+		  "naqel_barcode":"ddfgvf",
+		  "sku":"sdfgt",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"System"
+		},{
+		  "check_id":"wefdfgg",
+		  "naqel_barcode":"adfsdfgh",
+		  "sku":"234dfgg5",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"System"
+		},{
+		  "check_id":"wefdsg",
+		  "naqel_barcode":"adfgsdfgh",
+		  "sku":"2345",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"System"
+		}
+	],
+
+	"putaway_user" : [
+		{
+		  "check_id":"234566",
+		  "naqel_barcode":"234sdfg",
+		  "sku":"23345",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"User"
+		},{
+		  "check_id":"34556",
+		  "naqel_barcode":"3456fd",
+		  "sku":"sdfhj",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"User"
+		},{
+		  "check_id":"wdfgefg",
+		  "naqel_barcode":"ddfgvf",
+		  "sku":"sdfgt",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"User"
+		},{
+		  "check_id":"wefdfgg",
+		  "naqel_barcode":"adfsdfgh",
+		  "sku":"234dfgg5",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"User"
+		},{
+		  "check_id":"wefdsg",
+		  "naqel_barcode":"adfgsdfgh",
+		  "sku":"2345",
+		  "discription":"sdfgh dfghjk fg",
+		  "reciept_qty":"50",
+		  "suggeted_zone":"dfghjkl",
+		  "suggested_location":"ghjkl",
+		  "puyAwayType":"User"
+		}
+	]
+ 
 }
 

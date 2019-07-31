@@ -1,0 +1,14 @@
+
+{
+  "user": {
+    "userid":"12345",
+    "usertype":"reciving",
+    "username":"tester",
+    "warehouse_no":"23457"
+  },
+  "customer": {
+    "account_number": "cust12345",
+    "customer_name": "ikea"
+  }
+}
+

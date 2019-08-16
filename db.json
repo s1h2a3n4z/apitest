@@ -169,64 +169,64 @@
 	
 	"outbound":{ "orderTickets" : [
     {
-      "orderTicketNo" : "string",
+      "orderTicketNo" : "12345",
       "orders" : [
         {
-          "orderNo" : "string",
-          "naqelBarcode":"string",
-          "systemGuidedLocation":"string",
-          "sku":"string",
-          "discription":"string",
-          "assignedQty":"string",
-          "designedMarshalArea":"string"
+          "orderNo" : "12345",
+          "naqelBarcode":"111111",
+          "systemGuidedLocation":"dfghj",
+          "sku":"cvbnm",
+          "discription":"kjhv  bghj",
+          "assignedQty":"30",
+          "designedMarshalArea":"kkkkkk"
         },{
-          "orderNo" : "string",
-          "naqelBarcode":"string",
-          "systemGuidedLocation":"string",
-          "sku":"string",
-          "discription":"string",
-          "assignedQty":"string",
-          "designedMarshalArea":"string"
+          "orderNo" : "12345",
+          "naqelBarcode":"222222",
+          "systemGuidedLocation":"dddddd",
+          "sku":"wdgcxz",
+          "discription":"dfg dfg",
+          "assignedQty":"25",
+          "designedMarshalArea":"ffffff"
         },
         {
-          "orderNo" : "string",
-          "naqelBarcode":"string",
-          "systemGuidedLocation":"string",
-          "sku":"string",
-          "discription":"string",
-          "assignedQty":"string",
-          "designedMarshalArea":"string"
+          "orderNo" : "12345",
+          "naqelBarcode":"333333",
+          "systemGuidedLocation":"sdfgh",
+          "sku":"sdfgh",
+          "discription":"dfg dfg",
+          "assignedQty":"45",
+          "designedMarshalArea":"ttttttt"
         }
       ]
     },
     {
-      "orderTicketNo" : "string",
+      "orderTicketNo" : "456789",
       "orders" : [
         {
-          "orderNo" : "string",
-          "naqelBarcode":"string",
-          "systemGuidedLocation":"string",
-          "sku":"string",
-          "discription":"string",
-          "assignedQty":"string",
-          "designedMarshalArea":"string"
+          "orderNo" : "456789",
+          "naqelBarcode":"444444",
+          "systemGuidedLocation":"sdfg",
+          "sku":"sdfre",
+          "discription":"sjhd kjabsk",
+          "assignedQty":"34",
+          "designedMarshalArea":"cccccc"
         },{
-          "orderNo" : "string",
-          "naqelBarcode":"string",
-          "systemGuidedLocation":"string",
-          "sku":"string",
-          "discription":"string",
-          "assignedQty":"string",
-          "designedMarshalArea":"string"
+          "orderNo" : "456789",
+          "naqelBarcode":"555555",
+          "systemGuidedLocation":"gvh",
+          "sku":"cvbnm",
+          "discription":"xcvbnm",
+          "assignedQty":"20",
+          "designedMarshalArea":"hhhhhh"
         },
         {
-          "orderNo" : "string",
-          "naqelBarcode":"string",
-          "systemGuidedLocation":"string",
-          "sku":"string",
-          "discription":"string",
-          "assignedQty":"string",
-          "designedMarshalArea":"string"
+          "orderNo" : "456789",
+          "naqelBarcode":"666666",
+          "systemGuidedLocation":"xcvbnm",
+          "sku":"gfd",
+          "discription":"nhgf ghjk",
+          "assignedQty":"56",
+          "designedMarshalArea":"llllll"
         }
       ]
     }

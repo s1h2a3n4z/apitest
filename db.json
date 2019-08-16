@@ -165,7 +165,73 @@
 		  "suggested_location":"ghjkl",
 		  "puyAwayType":"User"
 		}
-	]
+	],
+	
+	"outbound":{ "orderTickets" : [
+    {
+      "orderTicket" : [
+        {
+          "orderNo" : "string",
+          "naqelBarcode":"string",
+          "systemGuidedLocation":"string",
+          "sku":"string",
+          "discription":"string",
+          "assignedQty":"string",
+          "designedMarshalArea":"string"
+        },{
+          "orderNo" : "string",
+          "naqelBarcode":"string",
+          "systemGuidedLocation":"string",
+          "sku":"string",
+          "discription":"string",
+          "assignedQty":"string",
+          "designedMarshalArea":"string"
+        },
+        {
+          "orderNo" : "string",
+          "naqelBarcode":"string",
+          "systemGuidedLocation":"string",
+          "sku":"string",
+          "discription":"string",
+          "assignedQty":"string",
+          "designedMarshalArea":"string"
+        }
+      ]
+    },
+    {
+      "orderTicket" : [
+        {
+          "orderNo" : "string",
+          "naqelBarcode":"string",
+          "systemGuidedLocation":"string",
+          "sku":"string",
+          "discription":"string",
+          "assignedQty":"string",
+          "designedMarshalArea":"string"
+        },{
+          "orderNo" : "string",
+          "naqelBarcode":"string",
+          "systemGuidedLocation":"string",
+          "sku":"string",
+          "discription":"string",
+          "assignedQty":"string",
+          "designedMarshalArea":"string"
+        },
+        {
+          "orderNo" : "string",
+          "naqelBarcode":"string",
+          "systemGuidedLocation":"string",
+          "sku":"string",
+          "discription":"string",
+          "assignedQty":"string",
+          "designedMarshalArea":"string"
+        }
+      ]
+    }
+  ]
+			
+
+	}
  
 }
 

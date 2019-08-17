@@ -229,6 +229,37 @@
           "designedMarshalArea":"llllll"
         }
       ]
+    },
+    {
+      "orderTicketNo" : "566789",
+      "orders" : [
+        {
+          "orderNo" : "456789",
+          "naqelBarcode":"444444",
+          "systemGuidedLocation":"sdfg",
+          "sku":"sdfre",
+          "discription":"sjhd kjabsk",
+          "assignedQty":"34",
+          "designedMarshalArea":"cccccc"
+        },{
+          "orderNo" : "456789",
+          "naqelBarcode":"555555",
+          "systemGuidedLocation":"gvh",
+          "sku":"cvbnm",
+          "discription":"xcvbnm",
+          "assignedQty":"20",
+          "designedMarshalArea":"hhhhhh"
+        },
+        {
+          "orderNo" : "456789",
+          "naqelBarcode":"666666",
+          "systemGuidedLocation":"xcvbnm",
+          "sku":"gfd",
+          "discription":"nhgf ghjk",
+          "assignedQty":"56",
+          "designedMarshalArea":"llllll"
+        }
+      ]
     }
   ]
 			

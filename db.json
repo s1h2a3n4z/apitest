@@ -172,7 +172,7 @@
       "orderTicketNo" : "12345",
       "orders" : [
         {
-          "orderNo" : "12345",
+          "orderDetailId" : "12345",
           "naqelBarcode":"111111",
           "systemGuidedLocation":"dfghj",
           "sku":"cvbnm",
@@ -180,7 +180,7 @@
           "assignedQty":"30",
           "designedMarshalArea":"kkkkkk"
         },{
-          "orderNo" : "12345",
+          "orderDetailId" : "12345",
           "naqelBarcode":"222222",
           "systemGuidedLocation":"dddddd",
           "sku":"wdgcxz",
@@ -189,7 +189,7 @@
           "designedMarshalArea":"ffffff"
         },
         {
-          "orderNo" : "12345",
+          "orderDetailId" : "12345",
           "naqelBarcode":"333333",
           "systemGuidedLocation":"sdfgh",
           "sku":"sdfgh",
@@ -203,7 +203,7 @@
       "orderTicketNo" : "456789",
       "orders" : [
         {
-          "orderNo" : "456789",
+          "orderDetailId" : "456789",
           "naqelBarcode":"444444",
           "systemGuidedLocation":"sdfg",
           "sku":"sdfre",
@@ -211,7 +211,7 @@
           "assignedQty":"34",
           "designedMarshalArea":"cccccc"
         },{
-          "orderNo" : "456789",
+          "orderDetailId" : "456789",
           "naqelBarcode":"555555",
           "systemGuidedLocation":"gvh",
           "sku":"cvbnm",
@@ -220,7 +220,7 @@
           "designedMarshalArea":"hhhhhh"
         },
         {
-          "orderNo" : "456789",
+          "orderDetailId" : "456789",
           "naqelBarcode":"666666",
           "systemGuidedLocation":"xcvbnm",
           "sku":"gfd",
@@ -234,7 +234,7 @@
       "orderTicketNo" : "566789",
       "orders" : [
         {
-          "orderNo" : "456789",
+          "orderDetailId" : "456789",
           "naqelBarcode":"444444",
           "systemGuidedLocation":"sdfg",
           "sku":"sdfre",
@@ -242,7 +242,7 @@
           "assignedQty":"34",
           "designedMarshalArea":"cccccc"
         },{
-          "orderNo" : "456789",
+          "orderDetailId" : "456789",
           "naqelBarcode":"555555",
           "systemGuidedLocation":"gvh",
           "sku":"cvbnm",
@@ -251,7 +251,7 @@
           "designedMarshalArea":"hhhhhh"
         },
         {
-          "orderNo" : "456789",
+          "orderDetailId" : "456789",
           "naqelBarcode":"666666",
           "systemGuidedLocation":"xcvbnm",
           "sku":"gfd",

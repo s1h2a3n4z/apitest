@@ -1,23 +1,5 @@
 
 {
-	"login" : 
-		{
-	  "user": {
-	    "userid":"12345",
-	    "usertype":"reciving",
-	    "username":"tester",
-	    "warehouse_no":"23457"
-	  },
-	  "customer": [
-	  	{
-	    "account_number": "cust12345",
-	    "customer_name": "ikea"
-	  },{
-	    "account_number": "cust1232345",
-	    "customer_name": "assd"
-	  }
-	]
-	},
 	"checkid": {
 			  "check_id":"23456",
 			  "dock_number":"234567",

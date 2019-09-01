@@ -264,7 +264,31 @@
   ]
 			
 
-	}
+	},
+	"checkingorder":{ 
+      "order_no" : "12345",
+      "barcodes" : [
+        {
+          "naqel_barcode" : "12345",
+          "sku":"cvbnm",
+          "discription":"kjhv  bghj",
+          "item_qty":"30",
+          "marshalling_area":"kkkkkk"
+        },{
+          "naqel_barcode" : "12345",
+          "sku":"cvbnm",
+          "discription":"kjhv  bghj",
+          "item_qty":"30",
+          "marshalling_area":"kkkkkk"
+        },{
+          "naqel_barcode" : "12345",
+          "sku":"cvbnm",
+          "discription":"kjhv  bghj",
+          "item_qty":"30",
+          "marshalling_area":"kkkkkk"
+        }
+      ]
+    }
  
 }
 

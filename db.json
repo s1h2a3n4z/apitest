@@ -1,153 +1,131 @@
 
 {
-	"checkid": {
-			  "check_id":"23456",
+	"rxitems": {
+			  "orderno":"23456",
 			  "dock_number":"234567",
 			  "shipment_data":[
 			  	{
-				    "sku":"sdfghjk",
+				    "sku":"111111",
 				    "discription":"this is one sku details",
 				    "po_qty":"50",
-				    "exp_date":"2019-08-23",
-				    "pack_config":[
-					      {"code":"M23vybj"},
-					      {"code":"M23vybj"}
-				      ]
+				    "customer":"Ikea",
+				    "msku":""
 			  },{
-				    "sku":"234efg",
+				    "sku":"222222",
 				    "discription":"this is one sku details",
 				    "po_qty":"50",
-				    "exp_date":"2019-08-23",
-				    "pack_config":[
-					      {"code":"M23vybj"},
-					      {"code":"M23vybj"}
-				      ]
+				    "customer":"Ikea",
+				    "msku":""
 			  },{
-				    "sku":"wert45",
+				    "sku":"333333",
 				    "discription":"this is one sku details",
 				    "po_qty":"50",
-				    "exp_date":"2019-08-23",
-				    "pack_config":[
-					      {"code":"M23vybj"},
-					      {"code":"M23vybj"}
-				      ]
+				    "customer":"Ikea",
+				    "msku":""
 			  },{
-				    "sku":"234edfr",
+				    "sku":"444444",
 				    "discription":"this is one sku details",
 				    "po_qty":"50",
-				    "exp_date":"2019-08-23",
-				    "pack_config":[
-					      {"code":"M23vybj"},
-					      {"code":"M23vybj"}
-				      ]
+				    "customer":"Ikea",
+				    "msku":""
 			  }
 			]
 			  ,
-			  "naqel_barcode":[
-				    {"barcode":"sdfghjkl"},
-				    {"barcode":"e3fhjkl"},
-				    {"barcode":"gfd3456"},
-				    {"barcode":"dfg3456"}
+			  "mskus":[
+				    {"barcode":"NAQ-111111"},
+				    {"barcode":"NAQ-222222"},
+				    {"barcode":"NAQ-333333"},
+				    {"barcode":"NAQ-444444"}
 			    ]
 	},
 
-	"putaway_system" : [
-		{
-		  "check_id":"234566",
-		  "naqel_barcode":"234sdfg",
-		  "sku":"23345",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"System"
-		},{
-		  "check_id":"34556",
-		  "naqel_barcode":"3456fd",
-		  "sku":"sdfhj",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"System"
-		},{
-		  "check_id":"wdfgefg",
-		  "naqel_barcode":"ddfgvf",
-		  "sku":"sdfgt",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"System"
-		},{
-		  "check_id":"wefdfgg",
-		  "naqel_barcode":"adfsdfgh",
-		  "sku":"234dfgg5",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"System"
-		},{
-		  "check_id":"wefdsg",
-		  "naqel_barcode":"adfgsdfgh",
-		  "sku":"2345",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"System"
-		}
-	],
+	"getAllRxedItemToStore" : 
+	{
+		"orderno":"234567",
+		"rxedItems":
+		[
+			{
+			  "msku":"NAQ-111111",
+			  "sku":"111111",
+			  "discription":"sdfgh dfghjk fg",
+			  "reciept_qty":"50",
+			  "customer":"Ikea",
+			  "suggeted_zone":"dfghjkl",
+			  "suggested_location":"ghjkl"
+			},{
+			  "msku":"NAQ-222222",
+			  "sku":"222222",
+			  "discription":"sdfgh dfghjk fg",
+			  "reciept_qty":"50",
+			  "customer":"Ikea",
+			  "suggeted_zone":"dfghjkl",
+			  "suggested_location":"ghjkl"
+			}
+		]	
+	},
 
-	"putaway_user" : [
-		{
-		  "check_id":"234566",
-		  "naqel_barcode":"234sdfg",
-		  "sku":"23345",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"User"
-		},{
-		  "check_id":"34556",
-		  "naqel_barcode":"3456fd",
-		  "sku":"sdfhj",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"User"
-		},{
-		  "check_id":"wdfgefg",
-		  "naqel_barcode":"ddfgvf",
-		  "sku":"sdfgt",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"User"
-		},{
-		  "check_id":"wefdfgg",
-		  "naqel_barcode":"adfsdfgh",
-		  "sku":"234dfgg5",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"User"
-		},{
-		  "check_id":"wefdsg",
-		  "naqel_barcode":"adfgsdfgh",
-		  "sku":"2345",
-		  "discription":"sdfgh dfghjk fg",
-		  "reciept_qty":"50",
-		  "suggeted_zone":"dfghjkl",
-		  "suggested_location":"ghjkl",
-		  "puyAwayType":"User"
-		}
-	],
+	"getPickDeliveryItems" :{
+		"deliveryorderno":"234567",
+		"pickitems":
+		 [
+			{
+			  "pickorderid":"234566",
+			  "msku":"234sdfg",
+			   "zone":"string",
+               "systemLocation":"string",
+			  "sku":"23345",
+			  "discription":"sdfgh dfghjk fg",
+              "assignQty":"38"
+			},{
+			  "pickorderid":"234566",
+			  "msku":"234sdfg",
+			   "zone":"string",
+               "systemLocation":"string",
+			  "sku":"23345",
+			  "discription":"sdfgh dfghjk fg",
+              "assignQty":"38"
+			},{
+			  "pickorderid":"234566",
+			  "msku":"234sdfg",
+			   "zone":"string",
+               "systemLocation":"string",
+			  "sku":"23345",
+			  "discription":"sdfgh dfghjk fg",
+              "assignQty":"38"
+			}
+		]
+	},
+	"getPackDeliveryItems" :{
+		"deliveryorderno":"234567",
+		"packOrders":
+		 [
+			{
+			  "packorderid":"234566",
+			  "packitems":[
+			  	{
+			  		
+			  	}
+
+			  ]
+			},{
+			  "pickorderid":"234566",
+			  "msku":"234sdfg",
+			   "zone":"string",
+               "systemLocation":"string",
+			  "sku":"23345",
+			  "discription":"sdfgh dfghjk fg",
+              "assignQty":"38"
+			},{
+			  "pickorderid":"234566",
+			  "msku":"234sdfg",
+			   "zone":"string",
+               "systemLocation":"string",
+			  "sku":"23345",
+			  "discription":"sdfgh dfghjk fg",
+              "assignQty":"38"
+			}
+		]
+	},
 	
 	"outbound":{ "orderTickets" : [
     {
